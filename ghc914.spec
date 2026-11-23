@@ -1,4 +1,5 @@
 %global debug_package %{nil}
+%global _find_debuginfo_opts --no-ar-files
 Summary:	Glasgow Haskell Compiler 9.14.1 (bootstrapped with in-chain GHC 9.12.4)
 Name:		ghc914
 Version:	9.14.1
